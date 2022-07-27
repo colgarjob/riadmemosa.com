@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reserve.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="shortcut icon" href="image/Logo-2.png" type="image/x-icon">
+    <title>Riad Mimosa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo1" class="logo1"><img src="image/Logo-Mimosa2.png" alt="logo_mimosa" > </li> 
+                <li id="logo"><a href="index.html">Riad Mimosa</a></li>
+                <li><a href="#langue">Langue</a></li>
+                <li><a href="reserve.html">Reserver</a></li>
+                <li><a href="index.html#contact">nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!-- *************************** RESERVER ************************ -->
+   
+        <div class="reservas_form_div">
+            <form id="reservas_form" action="index.php" name="form_multi" method="get">
+                <!----<select id="hotel_select" class="inputs">
+                    <option value="SLUG" selected="">RIAD MEMOSA</option>
+                </select>--->
+            <div id="checking">
+                <input type="text" id="in" onfocus="(this.type='date')" class="inputs" name="in" placeholder="Check-in"/>
+                <input type="text" id="out" onfocus="(this.type='date')" class="inputs" name="out" placeholder="Check-out"/>
+            </div>
+            <div id="edades">
+                <input type="number" placeholder="Adultes" id="ad" class="inputs" name="ad" />
+                <input type="number" placeholder="Enfants" id="ch" class="inputs" name="ch" />
+            </div>
+        
+            <div id="rooms_cherche">
+                <input type="number" id="rooms" name="rooms" class="inputs" placeholder="Chambre"/>
+                <button id="reservar" class="boton_reserva" type="button" value="Submit">
+             <!-- <i class="fa fa-search" aria-hidden="true"></i>-->  
+            <a id="reservation" href="#">Reserver</a> </button> 
+            </div>
+            </form> 
+        </div>
+
+            
+
+            <!--------------------------- FOOTER ---------------------------->
+
+        <footer>
+                <div id="copyrightEtIcons">
+                <div id="copyright">
+                    <span>©riad_mimosa_2022</span>
+                </div>
+                <div id="adresse">
+                   <a href="#" ><img src="image/localisation.png" alt="localisation"></a>
+                    <a href="https://www.google.com/maps/@34.032885,-5.0201413,437m/data=!3m1!1e3" target="_blank"> <p>3-7 Champs de Course, Av Omar Ibn Lkhatib Fès 30010, Fès(V.N) - MAROC</p></a>
+                </div>
+                <div id="icons">
+                    <a id="twitter"  href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a id="facebook"  href="https://www.facebook.com/profile.php?id=100010119282007"><i class="fa fa-facebook"></i></a>
+                    <a id="instagram" href="http://www.intagram.com"><i class="fa fa-instagram"></i></a>
+                    <a id="whatsapp" href="http://www.whatsapp.com" ><i class="fa fa-whatsapp"></i></a>
+                                 
+                </div>
+            </div>
+        </footer>
+            
+
+
+</body>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="image/Logo-2.png" type="image/x-icon">
+    <title>Riad Mimosa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo1" class="logo1"><img src="Logo-Mimosa2.png" alt="logo_mimosa" ></li> 
+                <li id="logo"><a href="index.html">Riad Mimosa</a></li>
+                <li ><a href="#langue">Langue</a></li>
+                <li><a href="reserve.html">Reserver</a></li>
+                <li><a href="#contact">nous contacter</a></li>
+            </ul>
+        </nav>
+
+        <!-- ***************** RESERVAR ********************** -->
+        <div class="reservas_form_div">
+            <form id="reservas_form" name="form_multi" method="GET">
+                <!----<select id="hotel_select" class="inputs">
+                    <option value="SLUG" selected="">RIAD MEMOSA</option>
+                </select>--->
+                <input type="text" id="in" onfocus="(this.type='date')" class="inputs" name="in" placeholder="Check-in"/>
+                <input type="text" id="out" onfocus="(this.type='date')" class="inputs" name="out" placeholder="Check-out"/>
+                <input type="number" placeholder="Adultos" id="ad" class="inputs" name="ad" />
+                <input type="number" placeholder="Niños" id="ch" class="inputs" name="ch" />
+                <input type="number" id="rooms" name="rooms" class="inputs" placeholder="Habitaciones"/>
+                <button id="reservar" class="boton_reserva" type="button" value="Submit"><a class="reservation" href="#">Reserver</a> </button>
+             <!-- <i class="fa fa-search" aria-hidden="true"></i>--> 
+            
+            </form>
+        </div>
+        <div id="imagePrincipale">
+            <h1>Riad Mimosa</h1>
+            <div id="premierTrait"></div>
+            <h3>Chambres d'hôtes</h3>
+        </div>
+       
+    </header>
+    <section id="presentation">
+        <div id="texteIntro">
+            <h2>un lieu unique, pour un séjour unique</h2>
+            <p>Découvrez le calme et le confort de notre <em>Riad Mimosa</em> design en plein cœur du centre-ville de Fès. Cet établissement de luxe, accueillant et moderne, offre une expérience riad sophistiqué, grâce à un style authentique dont émane une symbiose de la tradition et de la modernité et  qui fait de lui une destination privilégiée au centre-ville de Fès.
+            Au delà de notre hall de réception intime et chaleureux, nos 18 élégantes chambres et suites sont décorées d'un typique flair artistique qui va vous plonger derechef dans le bien-être. Notre piscine, extérieure chauffée offre un moment de détente idéale après une longue journée de réunion, de tourisme ou de shopping.
+            Pour le voyageur recherchant une expérience authentique et enrichissante, et pour tous ceux appréciant une touche personnelle, <em>Riad Mimosa </em>saura vous faire sentir comme à la maison, une intimité particulière puisée en plein cœur du centre-ville de Fès.</p>
+        </div>
+        <div id="prestations">
+            <div class="imagesPrestations">
+                <h4>Nous trouver</h4>
+                <a href="https://www.google.com/maps/@34.032885,-5.0201413,437m/data=!3m1!1e3" target="_blank" ><img src="image/carte.png" alt="carte"></a>
+            </div>
+            <div class="imagesPrestations">
+                <h4>Coté chambres</h4>
+                <a href="reserve.html" ><img src="image/H1.jpg" alt="chambre"></a>
+            </div>
+            <div class="imagesPrestations">
+                <h4>Restauration</h4>
+                <a href="#"><img src="image/tn_6.jpg" alt="repas"></a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="tourisme">
+        <h2>et tant à découvrir...</h2>
+        <ul>
+            <li id="fesElbali"><p>Fes El Bali</p></li>
+            <li id="Ifrane"><p>Ifrane</p></li>
+            <li id="Alqaraouin"><p>Jamiaa Alaqaraouin</p></li>
+            <li id="fesMedina"><p>Fes Centre Ville</p></li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <h2 id="contact">Contactez-nous</h2>
+        <!---- FORMULARIO ORIGINAL-->
+        <!-- <form>
+            <label id="nom_prenom">Entrez votre Nom et Prénom : <abbr>*</abbr></label>
+            <input id="name" name="nom_prenom" placeholder="Nom">
+            <label id="adresse_email">Entrez votre E-mail : <abbr>*</abbr></label>
+            <input id="email" name="email" placeholder="E-mail">
+            <label id="le_message">Rédigez votre message : <abbr>*</abbr></label>
+            <textarea id="message" name="le_message" placeholder="Votre message ici..."></textarea>
+            <button type="submit" class="btn primary full">Envoyer</button>
+        </form>
+        <a href="mailto:colgar.drop@gmail.com" id="trucazo"></a> -->
+                   
+        <!----- FORMULARIO INVENTADO ---------- -->
+        <section class="form_wrap">
+
+            <section class="cantact_info">
+                <section class="info_title">
+                    <span class="fa fa-user-circle"></span>
+                    <h2>INFORMACION<br>DE CONTACTO</h2>
+                </section>
+                <section class="info_items">
+                    <p><span class="fa fa-envelope"></span> colgar.drop@gmail.com</p>
+                    <p><span class="fa fa-mobile"></span> +34632912004</p>
+                </section>
+            </section>
+    
+            <form action="https://formsubmit.co/colgar.drop@gmail.com" class="form_contact">
+                <h2>Envia un mensaje</h2>
+                <div class="user_info">
+                    <label for="names">Nombres *</label>
+                    <input type="text" id="names" name="name">
+    
+                    <label for="phone">Telefono / Celular</label>
+                    <input type="text" id="phone" name="phone">
+    
+                    <label for="email">Correo electronico *</label>
+                    <input type="text" id="email" name="email">
+    
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+    
+                    <input type="button" value="Enviar Mensaje" id="btnSend">
+                </div>
+                <input type="hidden" name="_next" value="http://192.168.1.132:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+    
+        </section>
+
+        <!--------------FIN DE FORMULARIO INVENTADO-------------------->
+
+        <div id="deuxiemeTrait"></div>
+        <div id="copyrightEtIcons">
+            <div id="copyright">
+                <span>©riad_mimosa_2022</span>
+            </div>
+            <div id="adresse">
+               <a href="#"><img src="image/localisation.png" alt="localisation"></a>
+                <a href="https://www.google.com/maps/@34.032885,-5.0201413,437m/data=!3m1!1e3" target="_blank"> <p>3-7 Champs de Course, Av Omar Ibn Lkhatib Fès 30010, Fès(V.N) - MAROC</p></a>
+            </div>
+            <div id="icons">
+                <a id="twitter"  href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                <a id="facebook"  href="https://www.facebook.com/profile.php?id=100010119282007"><i class="fa fa-facebook"></i></a>
+                <a id="instagram" href="http://www.intagram.com"><i class="fa fa-instagram"></i></a>
+                <a id="whatsapp" href="http://www.whatsapp.com" ><i class="fa fa-whatsapp"></i></a>
+                             
+            </div>
+        </div>
+    </footer>
+    <br><br>
+
+
+    <!-- <form action="mailto:contacto@lineadecodigo.com" method="post" name="form1">
+        <label for="nombre">Nombre: </label>
+        <input id="nombre" name="nombre" type="text" />
+        <label for="email">Email: </label>
+        <input id="email" name="nombre" type="text" />
+        ¿Qué te pareció la página?
+        <textarea id="opinion" name="opinion"></textarea>
+        <input name="Submit" type="submit" value="Enviar" />
+      </form> -->
+            
+  
+    <script src="script.js"></script>
+    <script src="jquery-3.2.1.js"></script>
+</body>
+</html>

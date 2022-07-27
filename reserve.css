@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-image: url('img/fondo.png');background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+     li {
+        list-style-type: none;
+    }
+     /* h2 {
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 2rem;
+    } */
+     a {
+        text-decoration: none;
+        color: black;
+        /* font-size: 1.8rem; */
+    } 
+
+    /************ NAVBAR  ****************/
+
+    nav {
+        overflow: hidden;
+        background-color: #fffae1;
+        position:fixed ;
+        width: 100%;
+        opacity: 0.9;
+        /* font-size: 1.6rem; */
+        
+       
+    }
+    header li {
+        float: right;
+        font-size: 1.4rem;
+        
+    }
+    header li a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 25px 18px 0 18px;
+    }
+    #logo1 img {
+        width: 80px;
+        height: 80px;
+        margin-left: -1348px;
+        float: left;
+        border-radius: 15%;
+    }
+    #logo a {
+        font-family: 'Dancing Script',cursive;
+        /* margin-left: 70px; */
+        font-weight: bold;
+        margin-left: -1280px;
+        padding-top: 18px;
+        float: left;
+        font-size: 2rem;
+    }
+    
+        
+        
+   
+    /* ****************** reservar ****************/
+    .reservas_form_div  {
+        display: block ;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        background-position: center;
+        padding-top: 100px;
+    
+    }  
+    .logo {
+        border-radius: 25px;
+    }
+   
+    #reservas_form{
+        display: block;
+        padding: 0 42.5%;
+        width: 15%;
+        background-color: transparent;
+        text-align: center;
+        justify-content: space-around;
+        
+    }
+    #hotel_select{
+        display:inline!important;
+    }
+    /* #rooms{
+        display:inline!important;
+    }
+    #ch {
+        display:inline!important;
+    } */
+   
+    .inputs{
+        height: 50px;
+        width: 100%;
+        background-color: #E5E4E2;
+        border-radius: 15px;
+        border: none;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 1.2rem;
+        font-family: Georgia, Times, serif;
+        /* padding: 10px auto; */
+        margin: 15px ;
+    }
+    .rooms_cherche {
+        display: block;
+        width: 100%;
+        margin: 25px 15% ;
+        padding: 0 25%;
+        text-align: center;
+
+    }
+    .rooms {
+        padding: 0 25%;
+        width: 80px;
+
+    }
+
+    /* .reservas_form_div .Rooms_cherche {
+        display: inline-flex;
+
+    } */
+    
+                  
+     .boton_reserva {
+        font-size: 15px;
+        height: 50px; 
+        width: 100%;
+        color: #4D5656;
+        border-radius: 15px;
+        box-sizing: border-box;
+        background-color: #E5E4E2;
+        border: none; 
+         margin: 15px; 
+         padding: 0 42.5%;
+        text-align: center; 
+    }
+    .boton_reserva:hover {
+        background-color: #45B39D;
+    }
+    #reservation {
+        font-size: 1.5rem;
+        font-family: 'Advent Pro', sans-serif;
+        color: #4D5656;
+        /* text-align: center; */
+        align-items: center;
+        margin: 0 -200px;
+ 
+    }
+    #reservation:hover {
+        color: red;
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 1.8rem;
+        transition: 0.2s ease-in-out;
+        
+    }
+    
+    
+    /* @media(max-width: 580px){               
+    #reservas_form{
+            text-align: center;
+    }
+    .inputs{
+        width: 32%!important;
+        display: inline-block!important;
+        vertical-align: top;
+    }
+    .boton_reserva{
+        width: 32%!important;
+        display: block;
+        margin: 0 auto;
+    }
+    }               
+                    
+    @media(min-width: 980px){
+        #reservas_form{
+            margin: 0 auto;	
+            max-width: 970px;
+            padding: 30px 20px 10px 20px;
+            border-radius: 5px;
+        }
+        .inputs, .boton_reserva{
+        width: 18%!important;
+        }
+        .boton_reserva {
+        display: inline-block;
+        vertical-align: top;
+        }
+    }  */
+
+    /***************** FOOTER ***********************/
+
+    /* #deuxiemeTrait {
+        height: 5px;
+        width: 75%;
+        /* background-color: #fffae1; */
+        /*margin: 30px 0;
+        text-align: center;
+       
+    } */
+
+    #copyrightEtIcons {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 2px;
+        
+    }
+    #copyright {
+        width: 45%;
+        text-align: left;
+        /* margin-left: -200px; */
+        color: black;
+        padding-left: 20px;
+    }
+    #adresse {
+        display: flex;
+        width: 100%;
+        color: blue;
+        margin: 0 5%;
+        
+    }
+    #adresse img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+       
+    }
+    #adresse a:hover img {
+        transform: scale(1.5);
+        transform: 90deg;
+        transition: 0.1s;
+    }
+    
+    #adresse a p {
+       
+        color: blue;
+        text-align: center;
+        font-size: 1.05rem;
+        margin-top: 0;
+        transform: #f94949;
+       
+    } 
+    #adresse a:hover p {
+        color: red;
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.3rem;
+    }
+
+    #icons {
+        width: 50%;
+        text-align: right;
+        margin-right: 20px;
+        
+    }
+    #icons a {
+        display: inline-block;
+        padding: 0 15px;
+        font-size: 1.5rem;
+        color: #FFFAE1;
+    }
+    #icons a:hover {
+        transform: scale(2.3);
+        transition: 0.1s;
+    }
+    #icons #twitter {
+        width: 5px;
+        color: #00ACEE;
+    }
+    #icons #facebook {
+        width: 5px;
+        color: #326ff3;
+    }
+    #icons #instagram {
+        width: 5px;
+        color: #f98475;
+    }
+    #icons #whatsapp {
+        width: 5px;
+        color: #aff22a;
+    }
